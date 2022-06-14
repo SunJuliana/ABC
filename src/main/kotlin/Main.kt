@@ -1,7 +1,12 @@
 fun main(args: Array<String>) {
     println("Hello World!")
 
-    // Try adding program arguments via Run/Debug configuration.
-    // Learn more about running applications: https://www.jetbrains.com/help/idea/running-applications.html.
-    println("Program arguments: ${args.joinToString()}")
+   var x = 1 //Присвоить x значение 1
+   println("Before the loop. x = $x.")
+    while (x<4){
+    println("In the loop.x = $x.")
+    x=x+1
+    }
+    println("After the loop. x = $x.")
+
 }
